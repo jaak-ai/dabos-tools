@@ -1,3 +1,10 @@
+# [1.0.0-dev.2](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-09-06)
+
+
+### Features
+
+* add package datastore ([fbc841e](https://github.com/jaak-ai/jaak-dabos/commit/fbc841e27bd9f30d73e847fac8126124f546bef7))
+
 # 1.0.0-dev.1 (2022-09-06)
 
 
