@@ -1,3 +1,10 @@
+# [1.0.0-dev.3](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2022-09-20)
+
+
+### Features
+
+* add modules ([f7d4a1f](https://github.com/jaak-ai/jaak-dabos/commit/f7d4a1f5441ebaa9caa445b10746e844bf41cb98))
+
 # [1.0.0-dev.2](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2022-09-06)
 
 
