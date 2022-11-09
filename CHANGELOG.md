@@ -1,3 +1,10 @@
+# [1.0.0-dev.4](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2022-11-09)
+
+
+### Features
+
+* add package archive ([02dd19b](https://github.com/jaak-ai/jaak-dabos/commit/02dd19bf1279eba2bdf2145015046ec0abbb1928))
+
 # [1.0.0-dev.3](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2022-09-20)
 
 
