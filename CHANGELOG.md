@@ -1,3 +1,13 @@
+# [1.0.0-dev.7](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.6...v1.0.0-dev.7) (2022-11-29)
+
+
+### Features
+
+* **QS-724:** added DecryptAES and test ([e48908f](https://github.com/jaak-ai/jaak-dabos/commit/e48908f14af714b380eb71ff42c09f37711f4203))
+* **QS-724:** added EncryptAES and test ([9bc6324](https://github.com/jaak-ai/jaak-dabos/commit/9bc6324eb909d633467e302f54dad57b5d77a6d0))
+* **QS-724:** added spacing in tests ([5e3cdbb](https://github.com/jaak-ai/jaak-dabos/commit/5e3cdbb7422dd7b6c0d1dfc02145c2748a395e91))
+* **QS-724:** fixed var and functions names ([65abd52](https://github.com/jaak-ai/jaak-dabos/commit/65abd5261eefcc62c5cbc365fd7d89a840949bc8))
+
 # [1.0.0-dev.6](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2022-11-29)
 
 
