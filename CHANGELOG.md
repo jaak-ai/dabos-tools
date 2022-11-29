@@ -1,3 +1,10 @@
+# [1.0.0-dev.6](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.5...v1.0.0-dev.6) (2022-11-29)
+
+
+### Features
+
+* add package jzip ([0988121](https://github.com/jaak-ai/jaak-dabos/commit/0988121b2644ad207535bb9ae53f0b3cbcaa6a46))
+
 # [1.0.0-dev.5](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2022-11-09)
 
 
