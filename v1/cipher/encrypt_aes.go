@@ -6,22 +6,22 @@ import (
 	"crypto/cipher"
 )
 
-func EncryptAES(key string, initVector string, plaintext []byte) ([]byte, error) {
+func EncryptAES(key string, seed string, data []byte) ([]byte, error) {
 
 	bKey := []byte(key)
-	bIV := []byte(initVector)
-	bPlaintext := PKCS5Padding(plaintext, aes.BlockSize)
+	bSeed := []byte(seed)
+	bData := pkcs5Padding(data, aes.BlockSize)
 	block, err := aes.NewCipher(bKey)
 	if err != nil {
 		return nil, err
 	}
-	ciphertext := make([]byte, len(bPlaintext))
-	mode := cipher.NewCBCEncrypter(block, bIV)
-	mode.CryptBlocks(ciphertext, bPlaintext)
+	ciphertext := make([]byte, len(bData))
+	mode := cipher.NewCBCEncrypter(block, bSeed)
+	mode.CryptBlocks(ciphertext, bData)
 	return ciphertext, nil
 }
 
-func PKCS5Padding(ciphertext []byte, blockSize int) []byte {
+func pkcs5Padding(ciphertext []byte, blockSize int) []byte {
 	padding := (blockSize - len(ciphertext)%blockSize)
 	padtext := bytes.Repeat([]byte{byte(padding)}, padding)
 	return append(ciphertext, padtext...)
