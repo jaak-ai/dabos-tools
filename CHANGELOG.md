@@ -1,3 +1,10 @@
+# [1.0.0-dev.5](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.4...v1.0.0-dev.5) (2022-11-09)
+
+
+### Features
+
+* add package b64 ([268442a](https://github.com/jaak-ai/jaak-dabos/commit/268442a03dd699af85ea0bef61346c873675f089))
+
 # [1.0.0-dev.4](https://github.com/jaak-ai/jaak-dabos/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2022-11-09)
 
 
